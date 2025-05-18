@@ -1,1 +1,0 @@
-# chicken-pastil-lp-project
