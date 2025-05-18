@@ -103,4 +103,5 @@ To calculate how many units of Chicken Pastil need to be sold to **cover all cos
 ---
 
 ## 🖥️ 4. Program Output
-
+![GUI Screenshot](calculator_gui_screenshot.png)
+![GUI Screenshot](gui_screenshot.png)
