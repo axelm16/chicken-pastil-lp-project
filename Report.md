@@ -76,10 +76,29 @@ This project models the production of **Chicken Pastil**, a traditional Filipino
 ### Profit:
 - ₱1500 – ₱679.40 = ₱820.60
 
-### Break-even Units:
+### 🔄 Break-even Units
+
+To calculate how many units of Chicken Pastil need to be sold to **cover all costs** (including fixed overhead), we use the break-even formula:
+
 \[
-\left\lceil \frac{1000}{60 - 27.18} \right\rceil = \left\lceil \frac{1000}{32.82} \right\rceil = 31 \text{ units}
+\text{Break-even units} = \left\lceil \frac{\text{Fixed Costs}}{\text{Selling Price per Unit} - \text{Cost per Unit}} \right\rceil
 \]
+
+**Inputs:**
+- Fixed Cost = ₱1000
+- Selling Price per Unit = ₱60
+- Cost per Unit = ₱27.18 (from total cost ÷ units produced)
+
+**Step-by-step Calculation:**
+
+\[
+\text{Break-even units} = \left\lceil \frac{1000}{60 - 27.18} \right\rceil = \left\lceil \frac{1000}{32.82} \right\rceil = \left\lceil 30.47 \right\rceil = \textbf{31 units}
+\]
+
+**Interpretation:**
+- You need to sell at least **31 units** of Chicken Pastil to cover both your **ingredient costs** and **fixed overhead**.
+- Any units sold **beyond 31** will generate **profit**.
+
 
 ---
 
