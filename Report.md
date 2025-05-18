@@ -31,10 +31,7 @@ This project models the production of **Chicken Pastil**, a traditional Filipino
 3. **Cost per Unit**: Total cost ÷ units produced.
 4. **Revenue**: Units × selling price.
 5. **Profit**: Revenue − total cost.
-6. **Break-even**: 
-   \[
-   \left\lceil \frac{\text{Fixed Cost}}{\text{Selling Price} - \text{Cost per Unit}} \right\rceil
-   \]
+6. **Break-even**: (Fixed Costs) ÷ ((Selling Price per Unit) - (Cost per Unit))
 
 ### Output:
 - Printable results
