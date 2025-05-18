@@ -80,7 +80,7 @@ This project models the production of **Chicken Pastil**, a traditional Filipino
 
 To calculate how many units of Chicken Pastil need to be sold to **cover all costs** (including fixed overhead), we use the break-even formula:
 
-Break-even units = (Fixed Costs) / ((Selling Price per Unit) - (Cost per Unit))
+Break-even units = (Fixed Costs) ÷ ((Selling Price per Unit) - (Cost per Unit))
 
 
 **Inputs:**
@@ -90,20 +90,46 @@ Break-even units = (Fixed Costs) / ((Selling Price per Unit) - (Cost per Unit))
 
 **Step-by-step Calculation:**
 
-\[
-Break-even units} = \left\lceil \frac{1000}{60 - 27.18} \right\rceil = \left\lceil \frac{1000}{32.82} \right\rceil = \left\lceil 30.47 \right\rceil = \textbf{31 units}
-\]
+Break-even units = (1000) ÷ (60 - 27.18) 
+                 = (1000) ÷ (32.82)  
+                 = 30.47  
+                 ≈ 31 units
 
 **Interpretation:**
-- You need to sell at least **31 units** of Chicken Pastil to cover both your **ingredient costs** and **fixed overhead**.
+- We need to sell at least **31 units** of Chicken Pastil to cover both your **ingredient costs** and **fixed overhead**.
 - Any units sold **beyond 31** will generate **profit**.
 
+---
+## 📊 5. Discussion of Results
+
+Based on the given ingredient quantities, unit costs, and recipe requirements, the program calculated the **maximum number of Chicken Pastil units** that can be produced as:
+
+- **36 units**, constrained primarily by the available cooked rice and shredded chicken.
+
+The program performed the following calculations:
+
+- **Total cost of ingredients used:** ₱978.48  
+- **Cost per unit produced:** ₱27.18  
+- **Total revenue** (at ₱60 per unit): ₱2,160.00  
+- **Total profit:** ₱1,181.52  
+- **Break-even point:** **31 units**  
 
 ---
 
 ## 🖥️ 4. Program Output
+The GUI successfully accepted user input, validated numeric values, and clearly displayed the output metrics. This interface makes it user-friendly and suitable for use even by small business owners with minimal technical background.
+
 ![GUI Screenshot](calculator_gui_screenshot.png)
 **<--- Chicken Pastil Calculator**
 
 ![GUI Screenshot](output_gui_screenshot.png)
 **<--- Ouput**
+
+---
+## ✅ Conclusion
+
+This project effectively modeled a simple but realistic production scenario for a Chicken Pastil business using Python and basic linear programming principles. It demonstrated how resource limitations directly influence the number of products that can be made and how pricing and overhead costs affect profitability.
+
+The tool computed key business metrics such as cost per unit, revenue, and profit, and allowed for break-even analysis. For the input values used (selling price of ₱60 and fixed overhead of ₱1000), the business becomes profitable after selling **at least 31 units**, and achieves a total profit of over **₱1,100** at full production capacity.
+
+The graphical output and GUI improved usability, and the modular code design makes the project easily extensible. Overall, the project illustrates how basic optimization techniques and simple Python tools can help entrepreneurs make data-driven decisions, manage resources efficiently, and estimate financial outcomes accurately.
