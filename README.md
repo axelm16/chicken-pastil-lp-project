@@ -51,10 +51,11 @@ This project models the production process of Chicken Pastil using linear progra
 
 ---
 
-## 📈 Graph
+### 🖼️ Sample GUI
 
-- Plots cost, revenue, and profit over units produced
-- Shows break-even point
+Here is what the user interface looks like:
+
+![Chicken Pastil GUI](images/gui_screenshot.png)
 
 ---
 
