@@ -62,4 +62,4 @@ This project models the production process of Chicken Pastil using linear progra
 
 - `pastil_calculator.ipynb` – Jupyter Notebook with code
 - `README.md` – This file
-- `report.docx` – Project documentation (optional)
+- `report.md` – Project documentation (optional)
