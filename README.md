@@ -63,4 +63,6 @@ Here is what the user interface looks like:
 
 - `pastil_calculator.ipynb` – Jupyter Notebook with code
 - `README.md` – This file
-- `report.md` – Project documentation (optional)
+- `report.md` – Project documentation
+- `calculator_gui_screenshot.png` – project gui
+- `output_gui_screenshot.png` – project gui with values
