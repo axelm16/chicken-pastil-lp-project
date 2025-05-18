@@ -55,7 +55,7 @@ This project models the production process of Chicken Pastil using linear progra
 
 Here is what the user interface looks like:
 
-![GUI Screenshot](gui_screenshot.png)
+![GUI Screenshot](output_gui_screenshot.png)
 
 ---
 
